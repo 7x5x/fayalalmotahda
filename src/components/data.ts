@@ -11,3 +11,4 @@ export const banks = [
   "الخليج الدولي ",
 ];
 export const work = ["مدني", "عسكري", "قطاع خاص"];
+ 

@@ -1,8 +1,8 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "سياسة الخصوصية - النايف للتطوير العقاري",
-  description: "سياسة الخصوصية لموقع النايف للتطوير العقاري",
+  title: "سياسة الخصوصية - fayal-almotahda للتطوير العقاري",
+  description: "سياسة الخصوصية لموقع fayal-almotahda للتطوير العقاري",
   // other metadata
 };
 
@@ -14,11 +14,12 @@ export default function DocsPage() {
           <div className="-mx-4 flex flex-wrap">
             <div className="w-[90%] m-auto py-10">
               <div className="blog-details blog-details-docs shadow-three dark:bg-gray-dark rounded-sm bg-white px-8 py-11 sm:p-[55px] lg:mb-5 lg:px-8 xl:p-[55px]">
-                <h1>سياسة الخصوصية للنايف للتطوير العقاري</h1>
+                <h1>سياسة الخصوصية لـ فيال المتحده للتطوير العقاري</h1>
                 <p className="text-body-color dark:text-body-color-dark text-base">
-                  نحترم في النايف للتطوير العقاري خصوصية مستخدمينا ونلتزم بحماية
-                  معلوماتهم الشخصية. نستخدم المعلومات المجمعة لتقديم وتحسين
-                  خدماتنا، ولا نشاركها مع أطراف ثالثة إلا بموجب هذه السياسة.
+                  نحترم في فيال المتحده للتطوير العقاري خصوصية مستخدمينا ونلتزم
+                  بحماية معلوماتهم الشخصية. نستخدم المعلومات المجمعة لتقديم
+                  وتحسين خدماتنا، ولا نشاركها مع أطراف ثالثة إلا بموجب هذه
+                  السياسة.
                 </p>
                 <p className="text-body-color dark:text-body-color-dark text-base">
                   نجمع المعلومات الأساسية اللازمة لتقديم خدماتنا مثل الاسم،
