@@ -57,9 +57,11 @@ export default function Home() {
       <section className="  absolute border shadow-md   top-[30vh] bg-white z-50 rounded-t-[2.5rem] w-full ">
         <div className="p-8  flex flex-col items-center ">
           <div className="  ">
-            <h1 className=" text-5xl text-center    leading-snug">عقار وكاش</h1>
+            <h1 className=" text-[40px] text-center    leading-snug">
+              قروض عقارية كاش
+            </h1>
             <h1 className="  text-lg  text-center ">
-              لطالما كان هدفنا هو تسهيل امتلاك المنازل
+              اعلى تمويل عقاري بأقل نسبة فائدة تصل إلى 2%
             </h1>
           </div>
           {errorMsg !== "Email sent successfully" ? (
