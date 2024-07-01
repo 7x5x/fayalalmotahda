@@ -14,10 +14,10 @@ export const emailSchema = Joi.object<email>({
     "string.min": "يرجى ادخال الاسم بالكامل ",
   }),
   phoneNumber: Joi.string()
-    .pattern(/^(0[5\u0665][\d\u0660-\u0669\u06F0-\u06F9]{8})$/)
+    .pattern(/^(0|٠)(5|٥)[\d\u0660-\u0669\u06F0-\u06F9]{8}$/)
     .required()
     .messages({
-      "string.pattern.base": " يجب ان يبد رقم الهاتف 05",
+      "string.pattern.base": "يرجى ادخال رقم الهاتف الصحيح الذي يبدأ بـ 05",
       "any.required": "يرجى ادخال رقم الهاتف",
       "string.empty": "لا يمكن أن يكون رقم الهاتف فارغًا",
     }),
