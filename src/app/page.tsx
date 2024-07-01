@@ -5,7 +5,8 @@ import Loading from "@/components/loading";
 import Image from "next/image";
 import { useState } from "react";
 import { FaPhone } from "react-icons/fa";
-import { MdEmail } from "react-icons/md";
+import { LuPhoneCall } from "react-icons/lu";
+import { MdEmail, MdOutlineMailOutline } from "react-icons/md";
 
 export default function Home() {
   const [formData, setFormData] = useState({});
@@ -21,7 +22,7 @@ export default function Home() {
   };
 
   const handelSubmit = async (e: any) => {
- console.log(formData);
+    console.log(formData);
     setLoading(true);
 
     try {
@@ -52,6 +53,23 @@ export default function Home() {
           fill
           sizes=""
         />
+        <div className="  h-20    absolute top-[50%]  right-[50%] translate-x-[50%] shadow-sm ">
+          <div className=" relative  flex  gap-4">
+            <div className=" absolute w-full h-full bg-white  blur p-8  z-0"></div>
+            <a
+              href="tel:0533424925 "
+              className=" p-2 bg-black/20 rounded-xl text-[#f14c27] z-10 "
+            >
+              <LuPhoneCall size={37} />
+            </a>
+            <a
+              href="mailto:fayalalmotahda@gmail.com"
+              className=" p-2 bg-black/20 rounded-xl text-[#f14c27]  z-10"
+            >
+              <MdOutlineMailOutline size={37} />
+            </a>
+          </div>
+        </div>
       </section>
 
       <section className="  absolute border shadow-md   top-[30vh] bg-white z-50 rounded-t-[2.5rem] w-full ">
