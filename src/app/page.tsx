@@ -21,7 +21,7 @@ export default function Home() {
   };
 
   const handelSubmit = async (e: any) => {
-    e.preventDefault();
+ console.log(formData);
     setLoading(true);
 
     try {

@@ -16,7 +16,7 @@ export const CustomSelect = (props: any) => {
         {...props}
         className=" h-14 w-full bg-white border-b-2 border-[rgba(244,244,244,0.801191)] text-[#111029] transition-all duration-450 ease-in-out py-3.5 px-6 pl-12 text-[16px] focus:bg-white focus:outline-none  focus:border-[#4c40f7]focus:border-none rtl:text-right"
         onFocus={() => setIsFocused(true)}
-        onChange={() => setIsFocused(true)}
+        onChange={props.onChange}
         onBlur={() => setIsFocused(false)}
       >
         <option value="" hidden>
